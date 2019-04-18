@@ -7,6 +7,7 @@ import "./styles.css";
 
 class App extends React.Component {
   state = { name: "Name from prop" };
+
   handleClick = () => {
     this.setState({ name: "Updated name" });
   };
